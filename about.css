@@ -1,0 +1,27 @@
+ /* nav bar */
+ nav {
+    background-color: 	#008080;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  
+  nav li {
+    padding: 10px 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: deepskyblue;
+    text-decoration: line-through;
+  }
+   
